@@ -5,7 +5,11 @@ fib = 0
 fib_length = int(input("Please write how many numbers count? "))
 title = "Counting FIB"
 
-print('Fibonacci sequance:')
+def calc_title(title):
+    print(title)
+    print('Fibonacci sequance:')
+
+calc_title(title)
 while i <= fib_length:
     result = str(fib)
     print(str(i) + '. ' + result.rjust(30,' '))
