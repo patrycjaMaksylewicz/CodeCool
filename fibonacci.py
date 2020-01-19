@@ -3,6 +3,7 @@ next_number = 1
 previous_number = 0
 fib = 0
 fib_length = int(input("Please write how many numbers count? "))
+title = "Counting FIB"
 
 print('Fibonacci sequance:')
 while i <= fib_length:
